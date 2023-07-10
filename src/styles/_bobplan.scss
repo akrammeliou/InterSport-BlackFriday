@@ -1,0 +1,206 @@
+.bonplan {
+    background: #F2F2F2;
+    background: #F2F2F2;
+    padding: 38px 38px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.bonplan_left_images img {
+    width: 100%;
+}
+
+.bonplan_right {
+    padding: 45px 90px;
+    background: #fff;
+}
+
+.bonplan_contnaire {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    @media screen and (max-width:768px) {
+        justify-content: center;
+        width: 100%;
+        .bonplan_left {
+            display: none;
+        }
+        .bonplan_right {
+            padding: 0;
+        }
+    }
+}
+
+.bonplan_right_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+span.bonplan_right_desc_solde {
+    margin-left: -64px;
+    text-align: center;
+    font-family: "Amsi Pro Cond Ultra";
+    color: #FFE600;
+    background-color: #000000;
+    border-radius: 5px;
+    max-width: 120px;
+    margin: 0;
+    padding: 0px 16px;
+    letter-spacing: 1px;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+
+
+
+
+.bonplan_right_desc_price {
+    color: #E30613;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 27px;
+    margin-top: 21px;
+}
+
+.bonplan_right_desc_price_old {
+    color: #393938;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
+
+
+
+
+
+.bonplan_right_desc_title {
+    color: #3C3C3B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bonplan_right_desc_article {
+    color: #3C3C3B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bonplan_right_desc_article_btn {
+    border-radius: 26px;
+    background: transparent;
+    color: #393938;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 103px;
+    margin: 0 auto;
+    border-radius: 26px;
+    border: 1px solid #393938;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 1px;
+}
+
+
+span.bg1_bg1 {
+    font-family: "Amsi Pro Cond Ultra";
+    font-size: 27.251px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.251px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+span.bg1 {
+    font-family: "Amsi Pro Cond Ultra";
+    font-size: 27.251px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.251px;
+    text-transform: uppercase;
+}
+
+
+span.bg1 {
+    background: var(--dgrad, linear-gradient(220deg, #FFE600 43.75%, #FFAC00 100%));
+    width: 100%;
+    height: 34px;
+    display: block;
+    overflow: hidden;
+}
+
+.bg1_bottom {
+    margin-top: -4px;
+}
+
+span.bg1.bg1_right {
+    display: block;
+    position: absolute;
+    transform: rotate(-90deg) translate(-50%);
+    transform-origin: 0 100%;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    min-width: 648px;
+}
+
+span.bg1.bg1_right {
+    display: block;
+    position: absolute;
+    transform: rotate(90deg) translate(-50%);
+    bottom: 17px;
+    transform-origin: inherit;
+    left: inherit;
+    width: 100%;
+
+    @media screen and (min-width:1500px) {
+        right: -314px;
+    }
+    right: -307px;
+}
+
+span.bg1.bg1_left {
+    display: block;
+    position: absolute;
+    transform: rotate(-90deg) translate(-50%);
+    transform-origin: 0 100%;
+    bottom: 50%;
+    left: 34px;
+    width: 100%;
+}
+
+.bonplan_left_images {
+    overflow: hidden;
+    position: relative;
+}

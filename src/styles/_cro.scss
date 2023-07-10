@@ -1,0 +1,183 @@
+.cro {
+    display: flex;
+    align-items: center;
+    &:after {
+        content: url("../../public/images/Brand_symbole_intersport_.svg");
+        position: absolute;
+        display: block;
+        max-width: 94px;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        @media screen and (max-width:768px) {
+            z-index: 0;
+        }
+    }
+    .cro--right__bloc {
+        background: linear-gradient(220deg, #FFE600 43.75%, #FFAC00 100%);
+        height: 230px;
+        width: 50%;
+        @media screen and (max-width:768px) {
+            height: 250px;
+        }
+        .cro--right__bloc--img {
+            img {
+                @media screen and (max-width:768px) {
+                    height: 250px !important;
+                }
+                @media screen and (max-width:1024px) {
+                    width: 100%;
+                    height: 230px;
+                    object-fit: cover;
+                    object-position: right;
+                } 
+            }
+        }
+    }
+    .cro--left__bloc {
+        background: linear-gradient(220deg, #FFE600 43.75%, #FFAC00 100%);
+        height: 230px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width:768px) {
+            height: 250px;
+        }
+        .cro--container {
+            @media screen and (max-width:768px) {
+                z-index: 1;
+            }
+        }
+        .cro--left__bloc-content {
+            display: flex;
+            flex-direction: column;
+            .p1 {
+                color: $color_1;
+                text-align: center;
+                font-family: "Amsi Pro Cond Ultra";
+                font-size: 9px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.097px;
+                margin-bottom: 3px;
+            }
+            .p2 {
+                color: $color_1;
+                font-family: "Amsi Pro Cond Ultra";
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 91%;
+                text-transform: uppercase;
+                @media screen and (max-width:768px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .friday {
+                    color: transparent;
+                    font-family: "Amsi Pro Cond Ultra";
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 91%;
+                    text-transform: uppercase;
+                    -webkit-text-stroke: 1px black;
+                }
+            }
+            .weeks {
+                display: flex;
+                align-items: flex-end;
+                @media screen and (max-width:768px) {
+                    flex-direction: column;
+                    .derniers_jours {
+                        margin-top: 5px;
+                    }
+                }
+                .derniers_jours {
+                    margin-left: 5px;
+                    border-radius: 9px;
+                    background: $color_1;
+                    border: none;
+                    color: $color_neutral-1;
+                    padding: 10px;
+                    font-family: "Amsi Pro Cond Ultra";
+                    font-size: 17.942px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 17.942px;
+                    text-transform: uppercase;
+                }
+            }
+            .compteur {
+                display: flex;
+                justify-content: center;
+                .c1 {
+                    width: 25.105px;
+                    height: 25.203px;
+                    border-radius: 3.681px;
+                    background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(216, 216, 216, 0.50) 100%), $color_neutral-1;
+                    box-shadow: 0px 0px 6px 0px rgba(173, 180, 180, 0.24);
+                    margin: 0 4.27px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .c1__chiffre {
+                        color: #1D1D1D;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 20.614px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25.032px;
+                    }
+                    svg {
+                        stroke-width: 0.5px;
+                        stroke: #979797;
+                        opacity: 0.5;
+                        position: absolute;
+                        filter: drop-shadow(0px 0px 1px $color_1);
+                    }
+                }
+                .c2 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 3px;
+                }
+                .line {
+                    width: 25.105px;
+                    height: 25.203px;
+                    stroke-width: 0.5px;
+                    stroke: #979797;
+                    opacity: 0.5;
+                    filter: drop-shadow(0px 0px 1px $color_1);
+                }
+                .chiffre {
+                    color: #1D1D1D;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 20.614px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25.032px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .c2__text {
+                    color: $color_1;
+                    text-align: center;
+                    font-family: "Amsi Pro Cond Ultra";
+                    font-size: 6px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.736px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
